@@ -19,7 +19,7 @@ class App extends Component {
                 <div>
                     <Jumbotron fluid>
                         <Container fluid>
-                            <h1 className="display-3">Welcome to VoiceBox</h1>
+                            <h1 className="display-3">Welcome to <strong>Maya</strong>'s VoiceBox</h1>
                             <p className="lead">To get started, choose the category you'd like then press record</p>
                         </Container>
                     </Jumbotron>
@@ -27,29 +27,37 @@ class App extends Component {
 
                 <br /><br /><br /><br />
                 <span>
-                    <FormGroup>
-                        <Label for="exampleEmail">Enter your name:</Label>
-                        <Button color="link">
-                            <Input />
-                            <FormFeedback>You will not be able to see this</FormFeedback>
-                        </Button>
-                    </FormGroup>
-                    <FormGroup width="100">
-                        <Label for="exampleSelect">Select message type:</Label>
-                        <Button color="link">
-                            <Input type="select" name="select" id="exampleSelect">
-                                <option>Good morning!</option>
-                                <option>Birthday wish</option>
-                                <option>Getting in touch on a bad day</option>
-                                <option>Goals setting/checking</option>
-                                <option>Good night</option>
-                            </Input>
-                        </Button>
-                    </FormGroup>
-                    <AudioRecorder />
+                    <center>
+                        <FormGroup>
+                            <Label for="exampleEmail">Enter your name:</Label>
+                            <Button color="link">
+                                <Input />
+                                <FormFeedback>You will not be able to see this</FormFeedback>
+                            </Button>
+                        </FormGroup>
+                    </center>
+                    <center>
+                        <FormGroup width="100">
+                            <Label for="exampleSelect">Select message type:</Label>
+                            <Button color="link">
+                                <Input type="select" name="select" id="exampleSelect">
+                                    <option>Good morning!</option>
+                                    <option>Birthday wish</option>
+                                    <option>Getting in touch on a bad day</option>
+                                    <option>Goals setting/checking</option>
+                                    <option>Good night</option>
+                                </Input>
+                            </Button>
+                        </FormGroup>
+                    </center>
+                    <center>
+                        <AudioRecorder />
+                    </center>
                 </span>
                 <br /><br /><br /><br />
-                <Button size="lg" color="secondary">Submit</Button>
+                <center>
+                    <Button size="lg" color="secondary">Submit</Button>
+                </ center>
 
             </div>
         );
