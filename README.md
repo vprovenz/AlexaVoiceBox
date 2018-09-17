@@ -9,4 +9,9 @@ We created a new custom Alexa skill which communicated with an Amazon s3 server 
 
 VoiceBox addresses mental health issues in a preventative aspect, with a focus on motivation and social interaction, and aims to address issues commonly faced by those with depression and/or perhaps suicidal thoughts.
 
+**Demo Videos**
+https://drive.google.com/open?id=1rxfNBYM09_QOcsLXSTlhLwAOTAJQgIg9
+https://drive.google.com/open?id=1yz3riZBNiuHwSrJP8jTAC2VV3-RPliPC
+https://drive.google.com/open?id=1QSC4tY1vUTC-pewYuGzbmAS9i3gDOyvE
+
 A summary presentation with demo videos can be found here - https://docs.google.com/presentation/d/1XM-oIeFicnBDX1HdEgWTcSGVVcNWAbMKmfF6gVw25k4/edit?usp=sharing
